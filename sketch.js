@@ -1,4 +1,3 @@
-//Authored by John Kuiphoff
 const brushSize = 10;
 const transparency = 100;
 function setup() {
@@ -16,13 +15,7 @@ function lgSquareBrush() {
 
     stroke(150);
     textSize(40);
-    text("black", mouseX, mouseY);
-    ellipse(mouseX, mouseY + brushSize, brushSize, brushSize);
-    fill(255, 0, 0, transparency);
-    ellipse(mouseX - brushSize, mouseY, brushSize, brushSize);
-    fill(0, 255, 0, transparency);
-    ellipse(mouseX + brushSize, mouseY, brushSize, brushSize);
-    fill(0, 0, 255, transparency);
+    fill(0, 0, 255);
     ellipse(mouseX, mouseY - brushSize, brushSize, brushSize);
   }
 }
