@@ -19,8 +19,3 @@ function lgSquareBrush() {
     ellipse(mouseX, mouseY - brushSize, brushSize, brushSize);
   }
 }
-
-// This Redraws the Canvas when resized
-windowResized = function () {
-  resizeCanvas(windowWidth, windowHeight);
-};
