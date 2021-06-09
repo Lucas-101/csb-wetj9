@@ -12,10 +12,10 @@ function draw() {
 function lgSquareBrush() {
   if (mouseIsPressed) {
     fill(0, transparency);
-
+    var size = random(10, 100);
     stroke(150);
     textSize(40);
     fill(0, 0, 255);
-    ellipse(mouseX, mouseY - brushSize, brushSize, brushSize);
+    ellipse(mouseX, mouseY - brushSize, size, size);
   }
 }
